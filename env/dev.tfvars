@@ -7,6 +7,6 @@ public_subnets_cidr         = ["192.168.2.0/24","192.168.3.0/24"]
 private_subnets_cidr        = ["192.168.0.0/24","192.168.1.0/24"]
 availability_zones          = ["us-east-1c","us-east-1d"]
 
-key_name                    = "raj-dev"
+key_name                    = "devops-keypair"
 private_ips                 = ["192.168.0.11","192.168.0.12"]
 instance_type               = "t2.micro"
