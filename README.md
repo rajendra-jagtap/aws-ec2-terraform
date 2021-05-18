@@ -1,5 +1,5 @@
-# Setup AWS EC2 Cluster through Terraform
-The script can be used to get create EC2 Cluster along with VPC, Subnet, etc in AWS Cloud
+# Setup AWS EC2 servers through Terraform
+The script can be used to get create EC2 servers along with VPC, Subnets in AWS Cloud
 
 ## Requirements
 Install terraform
@@ -17,10 +17,10 @@ Install terraform
 ## Commands
 A list of commands available:
 
-1. `create` : This will create and configure a new VPC, subnets, etc
+1. `create` : This will create and configure a new EC2 servers along with VPC, subnets in AWS Cloud 
 `example: ./deploy.sh create dev`
 
-2. `update` : This will update the network setup
+2. `update` : This will update the EC2 servers or subnet changes
 `example: ./deploy.sh update dev`
 
 ## Tfvars Arguments:
